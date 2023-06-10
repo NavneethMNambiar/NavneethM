@@ -264,13 +264,21 @@ footer {
     padding-bottom: 80px;
 }
 
-.row{
+.header__container .row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    outline-color: white;
+}
+
+.portfolio-content .row{
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     outline-color: white;
     cursor: pointer;
 }
+
 
 .row img{
     border-radius: 8px;
@@ -396,6 +404,9 @@ footer {
 .social__icons .icon:hover{
     background-color: var(--secondary-color);
 }
+.nav-item {
+    margin-right: 10px;
+  }
 
 .footer__form{
     display: grid;
