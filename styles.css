@@ -415,7 +415,7 @@ footer {
 
 .footer__form :is(input,textarea){
     padding: 1rem;
-    background-color: var(--text-light);
+    background-color: var(--white);
     outline: none;
     border: none;
     border-radius: 5px;
